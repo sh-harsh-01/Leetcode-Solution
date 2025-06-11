@@ -1,23 +1,18 @@
 class Solution {
     int ans =0;
     public int pathSum(TreeNode root, int targetSum) {
-        traverse(root,(long)targetSum);
+        Map<Long,Integer> map = new HashMap<>();
+        map.put(0L,1);
+        solve(root,targetSum,map,0);
         return ans;
     }
-    public void traverse(TreeNode root, long sum){
+    public void solve(TreeNode root, int tar,Map<Long,Integer> map,long curr){
         if(root==null) return;
-        ans +=check(root,sum);
-        traverse(root.left,sum);
-        traverse(root.right,sum);
+        curr+=root.val;
+        if(map.containsKey(curr-tar)) ans+=map.get(curr-tar);
+        map.put(curr,map.getOrDefault(curr,0)+1);
+        solve(root.left,tar,map,curr);
+        solve(root.right,tar,map,curr);
+        map.put(curr,map.get(curr)-1);
     }
-    public int check(TreeNode root, long sum){
-        if(root==null) return 0;
-        sum-=root.val;
-        int c =0;
-        if(sum==0) c++;
-        c+=check(root.left,sum);
-        c+=check(root.right,sum);
-        return c;
-    }
-
 }
