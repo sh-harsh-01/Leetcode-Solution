@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0200-number-of-islands) |
 | [0985-bag-of-tokens](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0985-bag-of-tokens) |
 ## Two Pointers
 |  |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0113-path-sum-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0144-binary-tree-preorder-traversal) |
+| [0200-number-of-islands](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0200-number-of-islands) |
 | [0404-sum-of-left-leaves](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0543-diameter-of-binary-tree) |
@@ -80,9 +82,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0112-path-sum) |
+| [0200-number-of-islands](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0200-number-of-islands) |
 | [0404-sum-of-left-leaves](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0404-sum-of-left-leaves) |
 ## Backtracking
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0113-path-sum-ii) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/sh-harsh-01/Leetcode-Solution/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
